@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://randomuser.me/api/portraits/thumb/men/77.jpg"
+          alt="user"
+        />
+      </div>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>my landing page</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
+        placeat.
+      </p>
+      <button class="cta-btn" id="open">sign-up</button>
+    </header>
+    <div class="con">
+      <h2>what is axiom</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+        accusantium velit nam, quae omnis totam quaerat quos? Praesentium magni
+        voluptas fugiat aliquam, a iusto? Aperiam inventore possimus fugit
+        accusantium excepturi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ut,
+        tempore asperiores necessitatibus illo velit nostrum incidunt doloremque
+        officiis excepturi?
+      </p>
+      <h2>learn more</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        officia commodi itaque et necessitatibus fuga. Commodi cupiditate ad
+        natus magni.
+      </p>
+      <h2>projects</h2>
+      <ul>
+        <li>project 1</li>
+        <li>project 2</li>
+        <li>project 3</li>
+        <li>project 4</li>
+        <li>project 5</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim minus
+        architecto non nesciunt doloribus odit praesentium, repellat eveniet
+        laboriosam sint.
+      </p>
+      <div class="modal-container" id="modal">
+        <div class="modal">
+          <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-header">
+            <h3>sign-up</h3>
+          </div>
+          <div class="modal-content">
+            <p>register for classes</p>
+            <form action="" class="modal-form">
+              <div>
+                <label for="name">name</label>
+                <input type="text" id="name" placeholder="enter-name" />
+              </div>
+              <div>
+                <label for="email">email</label>
+                <input type="email" id="email" placeholder="enter-email" />
+              </div>
+              <div>
+                <label for="password">password</label>
+                <input type="text" id="password" placeholder="enter-password" />
+              </div>
+              <div>
+                <label for="password2">confirm password</label>
+                <input
+                  type="text"
+                  id="password2"
+                  placeholder="confirm-password"
+                />
+              </div>
+              <input type="submit" value="submit" class="submit-btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
